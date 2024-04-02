@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+   /* background-color: aquamarine;*/
+}
+#nav{
+    height: 140px;
+    width: 100%;
+    padding: 20px 30px;
+   /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+#nav h3{
+    font-size: 15px;
+    font-weight: 400;
+}
+#nav h2{
+    font-size: 15px;
+    font-weight: 400;
+}
+#nav h4{
+    font-size: 15px;
+    font-weight: 400;
+}
+#nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+#content{
+    margin-top: 60px;
+    padding: 40px 65px;
+}
+#content h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+#content h1{
+    font-size: 110px;
+    line-height: 110px;
+    font-weight: 550;
+    letter-spacing: -5px;
+}
+#case{
+    padding: 40px 65px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+#case h5{
+    font-size: 20px;
+    font-weight: 400;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#line{
+    height: 2px;
+    width: 160px;
+    background-color: #000;
+}
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 55px;
+    gap: 70px;
+}
+
+.elem{
+    width: 50%;
+}
+.img{
+    height: 600px;
+    background-color: rgb(173, 209, 220);
+    width: 100%;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+}
+#image-1{
+    background-image: url(p3.png);
+}
+#image-2{
+    background-image: url(https://play-lh.googleusercontent.com/jlHlNbJI4pUqWwxbkSUlOuNJQDQGP5fkvTlPQnpAGt75381icTGCGeKGQ5-oEEKEJtg=w1024-h768-rw);
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+    
+}
+.bottom i{
+    padding: 10px 20px;
+    font-size: 22px;
+    border: 2px solid #000;
+    border-radius: 50px;
+    font-weight: 800;
+}
+.bottom i:hover{
+    background-color: black;
+    color: #fff;
+}
+.bottom{
+    font-size: 20px;
+    font-weight: 250;
+    margin-bottom: 5px;
+}
+.bottom h4{
+    font-size: 20px;
+    color: #4b4949;
+    font-weight: 400;
+}
